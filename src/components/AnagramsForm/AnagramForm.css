@@ -1,0 +1,21 @@
+.AnagramForm {
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.Alert {
+    font-size: small;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    float: right;
+    padding-bottom: 0;
+}
+
+.AlertHeading {
+    font-weight: 200;
+}
