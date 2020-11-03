@@ -22,7 +22,6 @@ it('No data', () => {
     const wrapper = mount(<TopTen mock={[]}/>);
     expect(wrapper.find(Table)).toHaveLength(1);
     expect(wrapper.find('tr')).toHaveLength(0);
-    expect(wrapper.find('p')).toHaveLength(1);
 });
 
 

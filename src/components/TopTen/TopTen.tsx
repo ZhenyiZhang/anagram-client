@@ -47,7 +47,7 @@ const TopTen = (props: Props) => {
                         <th>Anagram</th>
                         <th>Times</th>
                     </tr>
-                    </thead>) : (<p>No anagrams yet</p>)
+                    </thead>) : null
                 }
                 <tbody>
                 {topTenAnagrams.map((anagram: Anagram, index: number) => {

@@ -1,7 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {MemoryRouter} from "react-router-dom";
-import Enzyme, { shallow, render, mount } from 'enzyme';
+import Enzyme, { shallow, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
 import Routes from '../Routes';
