@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d61dc5f2-a1b5-4218-b360-9484c6ed0eef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/AnagramsForm/tests/AnagramForm.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HowToUse/HowToUse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HowToUse/HowToUse.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HowToUse/tests/HowToUse.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NavBar/tests/NavBar.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Routes/Routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Routes/tests/Routes.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TopTen/tests/TopTen.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TopTen/tests/mockAnagrams.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AnagramsForm/AnagramForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AnagramsForm/AnagramForm.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AnagramsForm/AnagramForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AnagramsForm/AnagramForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AnagramsForm/functions/checkWord.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AnagramsForm/functions/checkWord.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AnagramsForm/functions/isAnagram.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AnagramsForm/functions/isAnagram.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopTen/TopTen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopTen/TopTen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopTen/TopTen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopTen/TopTen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/serverAddress.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/serverAddress.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/requestsToServer/getTopTen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/requestsToServer/getTopTen.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/requestsToServer/postAnagram.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/requestsToServer/postAnagram.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -55,11 +60,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Routes/tests" />
       <recent name="$PROJECT_DIR$/src/components/AnagramsForm" />
     </key>
   </component>
@@ -88,7 +94,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604032588614</updated>
-      <workItem from="1604032589940" duration="48164000" />
+      <workItem from="1604032589940" duration="49381000" />
+      <workItem from="1604253945195" duration="1367000" />
+      <workItem from="1604256372069" duration="7719000" />
+      <workItem from="1604297583621" duration="29248000" />
     </task>
     <servers />
   </component>
@@ -96,37 +105,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1659" height="430" key="GridCell.Tab.0.bottom" timestamp="1604209259723">
+    <state width="1535" height="263" key="GridCell.Tab.0.bottom" timestamp="1604367122997">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1659" height="430" key="GridCell.Tab.0.bottom/-1194.23.1194.811/0.23.1920.1177@0.23.1920.1177" timestamp="1604209259723" />
+    <state width="939" height="263" key="GridCell.Tab.0.bottom/-1194.23.1194.811/0.23.1920.1177@0.23.1920.1177" timestamp="1604346938782" />
     <state width="1404" height="271" key="GridCell.Tab.0.bottom/-1194.269.1194.811/0.23.2560.1417@0.23.2560.1417" timestamp="1604115504140" />
     <state width="939" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1604081251321" />
+    <state width="1535" height="263" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1604367122997" />
     <state width="1812" height="271" key="GridCell.Tab.0.bottom/660.1463.1194.811/0.23.2560.1417@0.23.2560.1417" timestamp="1604192730260" />
-    <state width="1659" height="430" key="GridCell.Tab.0.center" timestamp="1604209259721">
+    <state width="1535" height="263" key="GridCell.Tab.0.center" timestamp="1604367122996">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1659" height="430" key="GridCell.Tab.0.center/-1194.23.1194.811/0.23.1920.1177@0.23.1920.1177" timestamp="1604209259721" />
+    <state width="939" height="263" key="GridCell.Tab.0.center/-1194.23.1194.811/0.23.1920.1177@0.23.1920.1177" timestamp="1604346938781" />
     <state width="1404" height="271" key="GridCell.Tab.0.center/-1194.269.1194.811/0.23.2560.1417@0.23.2560.1417" timestamp="1604115504139" />
     <state width="939" height="271" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1604081251320" />
+    <state width="1535" height="263" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1604367122996" />
     <state width="1812" height="271" key="GridCell.Tab.0.center/660.1463.1194.811/0.23.2560.1417@0.23.2560.1417" timestamp="1604192730258" />
-    <state width="1659" height="430" key="GridCell.Tab.0.left" timestamp="1604209259720">
+    <state width="1535" height="263" key="GridCell.Tab.0.left" timestamp="1604367122996">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1659" height="430" key="GridCell.Tab.0.left/-1194.23.1194.811/0.23.1920.1177@0.23.1920.1177" timestamp="1604209259720" />
+    <state width="939" height="263" key="GridCell.Tab.0.left/-1194.23.1194.811/0.23.1920.1177@0.23.1920.1177" timestamp="1604346938781" />
     <state width="1404" height="271" key="GridCell.Tab.0.left/-1194.269.1194.811/0.23.2560.1417@0.23.2560.1417" timestamp="1604115504137" />
     <state width="939" height="271" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1604081251320" />
+    <state width="1535" height="263" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1604367122995" />
     <state width="1812" height="271" key="GridCell.Tab.0.left/660.1463.1194.811/0.23.2560.1417@0.23.2560.1417" timestamp="1604192730257" />
-    <state width="1659" height="430" key="GridCell.Tab.0.right" timestamp="1604209259722">
+    <state width="1535" height="263" key="GridCell.Tab.0.right" timestamp="1604367122996">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1659" height="430" key="GridCell.Tab.0.right/-1194.23.1194.811/0.23.1920.1177@0.23.1920.1177" timestamp="1604209259722" />
+    <state width="939" height="263" key="GridCell.Tab.0.right/-1194.23.1194.811/0.23.1920.1177@0.23.1920.1177" timestamp="1604346938782" />
     <state width="1404" height="271" key="GridCell.Tab.0.right/-1194.269.1194.811/0.23.2560.1417@0.23.2560.1417" timestamp="1604115504139" />
     <state width="939" height="271" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1604081251321" />
+    <state width="1535" height="263" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1604367122996" />
     <state width="1812" height="271" key="GridCell.Tab.0.right/660.1463.1194.811/0.23.2560.1417@0.23.2560.1417" timestamp="1604192730260" />
-    <state x="1047" y="351" key="SettingsEditor" timestamp="1604090414900">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="785" y="295" key="SettingsEditor" timestamp="1604346687217">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
+    <state x="785" y="295" key="SettingsEditor/-1194.23.1194.811/0.23.1920.1177@0.23.1920.1177" timestamp="1604346687217" />
     <state x="1047" y="351" key="SettingsEditor/-1194.269.1194.811/0.23.2560.1417@0.23.2560.1417" timestamp="1604090414900" />
     <state x="1006" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1604119550273">
       <screen x="0" y="23" width="2560" height="1417" />

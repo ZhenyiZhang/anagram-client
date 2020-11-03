@@ -2,5 +2,7 @@
     position: relative;
     top: 50px;
     margin: auto;
-    width: 60%;
+    width: 80%;
+    white-space: pre-line !important;
+    word-wrap: break-word;
 }

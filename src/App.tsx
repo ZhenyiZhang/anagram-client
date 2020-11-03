@@ -1,17 +1,15 @@
 import React from 'react';
 import './App.css';
-import AnagramForm from './components/AnagramsForm/AnagramForm'
-import NavBar from './components/NavBar/NavBar';
-import TopTen from './components/TopTen/TopTen'
+import Routes from './components/Routes/Routes'
+
+import {BrowserRouter as Router,} from "react-router-dom";
 
 const App = () => {
-  return (
-    <div className="AnagramInputs">
-        <NavBar/>
-        <AnagramForm/>
-        <TopTen/>
-    </div>
-  );
+    return (
+        <Router>
+            <Routes/>
+        </Router>
+    );
 };
 
 export default App;

@@ -42,15 +42,15 @@ const AnagramForm = () => {
             return;
         }
 
-        if(!isAnagram(wordA, wordB)) {
-            const msg = `"${wordA}" and "${wordB}" are not an anagram`;
+        if(!isAnagram(wordA.toLowerCase(), wordB.toLowerCase())) {
+            const msg = `${wordA} and ${wordB} are not anagrams`;
             createFeedback(FeedbackType.notAnagram, msg, 'Not Anagram');
             return;
         }
 
-        const msg = `"${wordA}" and "${wordB}" are anagram`;
+        const msg = `${wordA} and ${wordB} are anagrams`;
         createFeedback(FeedbackType.anagram, msg, 'Anagram!');
-        postAnagram.post('', {wordA: wordA, wordB: wordB})
+        postAnagram.post('', {wordA: wordA.toLowerCase(), wordB: wordB.toLowerCase()})
             .catch(err => {console.log(err);});
     };
 
@@ -61,12 +61,14 @@ const AnagramForm = () => {
                     <InputGroup.Text>Type words here</InputGroup.Text>
                 </InputGroup.Prepend>
                 <FormControl
+                    id="first-word-input"
                     placeholder="First Word"
                     aria-label="First Word"
                     aria-describedby="basic-addon1"
                     onChange={(event) => {setWordA(event.target.value.trim())}}
                 />
                 <FormControl
+                    id="second-word-input"
                     placeholder="Second Word"
                     aria-label="Second Word"
                     aria-describedby="basic-addon1"
@@ -82,10 +84,12 @@ const AnagramForm = () => {
                 show={showFeedback}
                 onClose={() => setShowFeedback(false)}
                 dismissible>
-                <Alert.Heading style={{fontWeight: 400, fontSize: "large"}}>
+                <Alert.Heading
+                    id="alert-heading"
+                    style={{fontWeight: 400, fontSize: "large"}}>
                     {feedbackHeading}
                 </Alert.Heading>
-                <p>{feedback}</p>
+                <p id="feedback">{feedback}</p>
             </Alert>
         </div>
     );

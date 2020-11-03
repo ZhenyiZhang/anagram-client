@@ -1,6 +1,6 @@
 .AnagramForm {
     position: relative;
-    top: 20px;
+    top: 100px;
     bottom: 20px;
     width: 70%;
     margin: auto;
@@ -11,8 +11,6 @@
     position: relative;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 30%;
-    float: right;
     padding-bottom: 0;
 }
 

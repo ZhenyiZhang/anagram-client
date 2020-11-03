@@ -4,10 +4,11 @@ import {Nav, Navbar} from 'react-bootstrap'
 const NavBar = () => {
     return (
         <Navbar bg="dark" variant="dark">
-            <Navbar.Brand color="" href='/'>Anagrams</Navbar.Brand>
+            <Navbar.Brand id="Anagrams" color="" href='/'>Anagrams</Navbar.Brand>
             <Nav>
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/">Top 10 Live</Nav.Link>
+                <Nav.Link id="Home" href="/">Home</Nav.Link>
+                <Nav.Link id="TopTen" href="/TopTen">Top ten words</Nav.Link>
+                <Nav.Link id="HowToUse" href="/HowToUse">How to use</Nav.Link>
             </Nav>
         </Navbar>
     );

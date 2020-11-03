@@ -5,6 +5,9 @@ const checkWord = (word: string): void => {
     if(!/^[a-zA-Z]+$/.test(word)) {
         throw new Error(`"${word}" is not a word`);
     }
+    if(word.length >= 50) {
+        throw new Error(`Word cannot contain more than 50 characters`)
+    }
 };
 
 export default checkWord;
